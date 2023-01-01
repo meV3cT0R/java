@@ -30,8 +30,7 @@ public class Tictactoe {
         String[] coor = move.split(" ");
         int x = Integer.parseInt(coor[0]);
         int y = Integer.parseInt(coor[1]);
-        System.out.println(x);
-        System.out.println(y);
+
         if(tictactoe[x][y] != ' ') return;
         tictactoe[x][y] = currentUser;
 
